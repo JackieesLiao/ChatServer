@@ -17,7 +17,11 @@ sudo apt install g++
 1.MySQL   
 ``` 
 sudo apt install mysql-server mysql-client
-```   
+```
+And in order to be able to perform MySQL C++ programming, the following packages need to be installed:   
+```
+ sudo apt-get install libmysqlclient-dev -y
+```
 2.Redis    
 ``` 
 sudo apt install redis-server
